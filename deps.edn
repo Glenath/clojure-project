@@ -1,1 +1,4 @@
 {:deps {org.clojure/data.json {:mvn/version "0.2.6"}}}
+
+{:deps
+ {io.github.Glenath/clojure-project {:git/tag "v0.0.1"}}}
