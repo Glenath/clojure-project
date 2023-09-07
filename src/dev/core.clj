@@ -1,8 +1,9 @@
 (ns dev.core
     (:require [clojure.edn :as edn])
     (:require [clojure.data.json :as json]))
-(defn -main []
-      (println "Hello, World!") (println "H9999lcccclo, World!"))
+(defn -main [])
+
+;;PROBLEM 1
 (def invoice (clojure.edn/read-string (slurp "invoice.edn")))
 
 (defn filter-invoice [invoice]
@@ -18,5 +19,5 @@
 
 
 
-(println "filtered-items"  fielter-items)
+(println "filtered items"  filter-items)
 
