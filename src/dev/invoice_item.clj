@@ -1,10 +1,12 @@
-;; (ns invoice-item)
+;(ns invoice-item)
+;(ns invoice_item
+;  (:gen-class)
+;    )
 (ns invoice_item
-  (:gen-class))
-(defn -main
-  "I don't do a whole lot ... yet."
-  [& args]
-  (println "Hello, World!"))
+
+    )
+(defn hellow []
+      (println "Hello, World!"))
 ;; (defn- discount-factor [{:invoice-item/keys [discount-rate]
 ;;                          :or                {discount-rate 0}}]
 ;;   (- 1 (/ discount-rate 100.0)))
