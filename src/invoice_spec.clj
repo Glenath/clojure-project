@@ -4,6 +4,8 @@
 (:require [clojure.test :refer [deftest is]]
   [invoice-item :as invoice-item])
 
+
+;;PROBLEM 2
 (defn not-blank? [value] (-> value clojure.string/blank? not))
 (defn non-empty-string? [x] (and (string? x) (not-blank? x)))
 
